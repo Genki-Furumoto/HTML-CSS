@@ -38,3 +38,27 @@ body {
 }
 
 /* 上の部分は気にせずここから書く */
+
+.board {
+  margin: 5px 0px 0px 550px;
+  border: 2px solid black;
+  width:  1200px;
+  height: 1200px;
+  position: relative;
+}
+
+.red {
+  left: 600px;
+  width: 400px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+}
+
+.blue {
+  top: 400px;
+  width: 400px;
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+}
